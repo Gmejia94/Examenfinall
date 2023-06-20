@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toyota WebApp</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section id="panel-menu" class="panel panel-left panel-reveal">
+				<div class="list media-list">
+					<a href="/registro/" class="item-link item-content panel-close">
+						<div class="block perfil">
+							<div class="row">
+
+							<article class="col-15">
+								<span class="material-symbols-outlined">account_circle</span>
+							</article>
+							
+							<article class="col-85"> 
+							<h6> German Mejía </h6>
+							</article>
+
+
+							</div>
+
+						</div>
+					</a>
+				</div>
+				<div class="list media-list">
+                <ul>
+					<li>
+                    <a href="/home/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						<span class="material-symbols-outlined">home</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Inicio</div>
+                       
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/vehiculos/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						<span class="material-symbols-outlined">airport_shuttle</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Vehículos</div>
+                       
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/servicios/" class="item-link item-content panel-close">
+                      <div class="item-media"><span class="material-symbols-outlined">design_services</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Servicios</div>
+                        
+                      </div>
+                    </a>
+                  </li>
+
+
+                <li>
+                <a href="/acercade/" class="item-link item-content panel-close">
+                  <div class="item-media"><span class="material-symbols-outlined">call</span>
+					</div>
+                  <div class="item-inner">
+                    <div class="item-title">Cotiza</div>
+                  </div>
+                </a>
+              </li>
+
+                 <li>
+              <a href="/usuario/" class="item-link item-content panel-close">
+                <div class="item-media"><span class="material-symbols-outlined">settings</span>
+				  </div>
+                <div class="item-inner">
+                  <div class="item-title">Configuraciones</div>
+                </div>
+              </a>
+            </li>
+                </ul>
+              </div>
+				
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div> 
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="/usuario/" class="link"><span class="material-symbols-outlined">account_circle</span></a>
+					</div>
+				  	
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <h2 class="block-title-large block-title">Totoya</h2>
+				  
+				  <section id="carousel" class="block">
+				  
+                  <div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                      <img src="img/corolla.jpeg" alt="" class="responsive"/>					  
+					  </div>
+                      <div class="swiper-slide">
+					  <img src="img/sequoia.png" alt="" class="responsive"/>
+					  </div>
+                      <div class="swiper-slide">
+					  <img src="img/rav4.png" alt="" class="responsive"/>
+					  </div>
+                   
+                  </div>
+              </div>
+				  
+				  </section>
+				  
+				  <h2 class="block-title">Nuestros vehículos</h2>
+				  
+				  <section class="card-products block">
+					  
+					  <div class="row">
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+						  <img src="img/4runner.jpeg" alt="" class="img-fluid-card item-shop">
+						</a>
+						  <h3>Toyota 4Runner</h3>
+						  <p>Negro</p>
+						  <h4>$ 45,000.00</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+                         <img src="img/corolla.jpeg" alt="" class="img-fluid-card">
+						</a>
+
+						  <h3>Toyoya Corolla</h3>
+						  <p>Blanco</p>
+						  <h4>$ 32,000.99</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+					  
+					  <br><div class="row">
+					  
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+						  <img src="img/hilux.jpeg" alt="" class="img-fluid-card">
+						</a>
+						  <h3>Toyoya Hilux</h3>
+						  <p>Blue, Gray</p>
+						  <h4>$ 90,000.00</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+                         <img src="img/sequoia.png" alt="" class="img-fluid-card">
+						</a>
+						  <h3>Sequoia</h3>
+						  <p>Special Edition</p>
+						  <h4>Consultar</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+				  </section>
+				  
+				  <section class="footer-section block">
+					  <div class="row footer-items">
+					 
+					  <article class="col">
+						  <span class="material-symbols-outlined">copyright</span>
+						 
+                      </article>
+						  <article class="col">
+							<span class="material-symbols-outlined">person_apron</span>
+                      </article>
+						  <article class="col">
+							  <span class="material-symbols-outlined">nest_protect</span>
+							 
+                      </article>
+						  
+					  </div>				  				  
+				  </section>
+				  
+			  </section>
+
+			</section>
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
